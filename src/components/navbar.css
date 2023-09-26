@@ -1,0 +1,27 @@
+/* navbar.css */
+.navbar {
+    background-color: rgba(153, 0, 0, 0.85); /* Set the background color to blue */
+    padding: 10px; /* Add some padding to the Navbar for spacing */
+    display: flex;
+    justify-content: space-between; /* Spacing divs to left and right */
+    align-items: center; /* Vertically center the content */
+  }
+  
+.logoAndName {
+    display: flex;
+    align-items: center;
+}
+
+.logoSBUMed {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.text-white{
+    margin-left : 15px;
+    margin-right: 15px;
+}
+
+.links {
+    padding: 10px; /* Example padding */
+}

@@ -1,17 +1,10 @@
+
 /* MainPage.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 .main-page {
   display: flex;
-}
-
-.sidebar {
-  background-color: #333;
-  color: white;
-  width: 250px;
-  min-height: 100vh; /* Make the sidebar full height */
-  padding: 1rem;
 }
 
 .content {
