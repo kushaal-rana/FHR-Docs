@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
+import './navbar.css';
 
 export default function Navbar() {
+  const imagePath = process.env.PUBLIC_URL + '/favicon-32x32.png';
   return (
-    <nav className="bg-teal-500 p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        {/* Logo */}
+    <nav className="navbar">
+      <div className="logoAndName">
+        <img href="#" src={imagePath} alt="SBU Medicine" className="logoSBUMed" />
         <a href="#" className="text-white text-xl font-bold">FHR</a>
-
-        {/* Navigation Links */}
-        <ul className="space-x-4 flex">
-          <li><a href="#" className="text-white">Docs</a></li>
-          <li><a href="#" className="text-white">Community</a></li>
-        </ul>
+      </div>
+      <div className="links">
+          <a href="#" className="text-white text-xl font-bold">Docs</a>
+          <a href="#" className="text-white text-xl font-bold">Community</a>
       </div>
     </nav>
   )
