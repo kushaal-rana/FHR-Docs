@@ -1,13 +1,3 @@
-+++
-date = "2023-09-25T14:02:13-04:00"
-title = "Help and Support"
-draft = false
-linktitle = "Help and Suppor"
-weight = 3
-toc = "true"
-
-+++
-
 **Help and Support**
 
 Welcome to our Database Help and Support page. This resource is provided to assist users in navigating our database and finding answers to their questions. Please note that while we are committed to providing valuable data, we have limited resources and may not be able to offer individualized support.

@@ -7,7 +7,7 @@ export default function Navbar() {
         <nav className="navbar">
       <div className="logoAndName">
         <img href="#" src={imagePath} alt="SBU Medicine" className="logoSBUMed" />
-        <a href="#" className="text-white text-xl font-bold">FHR</a>
+        <a href="#" className="text-white text-xl font-bold">SBU-FHR</a>
       </div>
       <div className="links">
           <a href="#" className="text-white text-xl font-bold">Docs</a>

@@ -1,10 +1,4 @@
-+++
-title = "The mother_peternal_delivery table"
-linktitle = "mother_peternal_delivery"
-weight = 10
-toc = "true"
-
-+++
+**mother_peternal_delivery**
 
 **Table source:** Hospital Database.
 

@@ -1,10 +1,4 @@
-+++
-date = "2023-09-24T00:00:00Z"
-title = "FHR Vitals Table"
-linktitle = "FHR VITALS"
-weight = 10
-toc = "true"
-+++
+**FHR VITALS**
 
 **Table source:** Hospital Database.
 

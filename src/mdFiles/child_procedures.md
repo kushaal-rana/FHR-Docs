@@ -1,10 +1,4 @@
-+++
-date = "2023-09-24T00:00:00Z"
-title = "Child Procedures Table"
-linktitle = "CHILD PROCEDURES"
-weight = 10
-toc = "true"
-+++
+**CHILD PROCEDURES**
 
 **Table source:** Hospital Database.
 

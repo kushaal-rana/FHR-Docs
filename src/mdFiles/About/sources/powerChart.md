@@ -1,11 +1,5 @@
-+++
-date = "2023-09-25T14:02:13-04:00"
-title = "PowerChart"
-linktitle = "PowerChart"
-weight = 2
-toc = "false"
+**PowerChart**
 
-+++
 
 PowerChart is a comprehensive electronic health record (EHR) system developed by Cerner Corporation, which is utilized for managing patient data and medical records in various healthcare settings. The FHR (Fetal Heart Rate) database we're working with primarily sources its data from PowerChart. This EHR system plays a pivotal role in capturing and storing clinical information for patients.
 

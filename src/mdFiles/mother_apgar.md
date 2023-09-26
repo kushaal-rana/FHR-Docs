@@ -1,10 +1,4 @@
-+++
-date = "2015-09-01T19:34:46-04:00"
-title = "Mother Apgar Score Table"
-linktitle = "MOTHER_APAGR_SCORE"
-weight = 10
-toc = "true"
-+++
+**MOTHER_APAGR_SCORE**
 
 **Table Source:** Hospital Database.
 

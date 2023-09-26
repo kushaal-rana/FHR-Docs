@@ -1,10 +1,4 @@
-+++
-<!-- date = "2015-09-01T19:34:46-04:00" -->
-title = "Mother-Child Link Table"
-linktitle = "MOTHER_CHILD_LINK"
-weight = 10
-toc = "true"
-+++
+**MOTHER_CHILD_LINK**
 
 **Table Source:** Hospital Database.
 

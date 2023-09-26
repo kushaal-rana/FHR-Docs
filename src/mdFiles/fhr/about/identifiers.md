@@ -1,11 +1,4 @@
-+++
-date = "2023-09-25T14:02:13-04:00"
-title = "Types of data in the database"
-linktitle = "Patient identifiers"
-weight = 30
-toc = "true"
-
-+++
+**Patient identifiers**
 
 The FHR (Fetal Heart Rate) database contains a wealth of clinical information recorded during routine patient care. It's important to understand the two main types of data within the database: static data and dynamic data. These distinctions help provide context for the nature of the information stored in the database.
 
