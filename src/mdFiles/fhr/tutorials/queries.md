@@ -1,12 +1,4 @@
-+++
-date = "2023-09-25T14:02:13-04:00"
-title = "Querying the FHR Database in SQL"
-draft = false
-linktitle = "Postgres queries"
-weight = 3
-toc = "true"
-
-+++
+**Postgres queries**
 
 Prerequisites: *This tutorial assumes that you have access to an instance of the FHR database running on a PostgreSQL server* Make sure you have the necessary permissions and connectivity to the database. If your FHR database is not on the default search path, adjust the schema accordingly in your SQL queries.
 

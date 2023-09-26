@@ -1,11 +1,4 @@
-+++
-date = "2023-09-25T14:02:13-04:00"
-title = "DataTypes"
-linktitle = "Data"
-weight = 20
-toc = "true"
-
-+++
+**DataTypes**
 
 The fetal heart rate (FHR) data within this database provides critical insights into the health and well-being of both infants and expectant mothers. It encompasses a wide range of information, from patient-level data to hospital and ICU-level details. Here, we break down the different levels of data available and the corresponding tables and attributes.
 

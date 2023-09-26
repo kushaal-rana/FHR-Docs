@@ -1,11 +1,4 @@
-+++
-date = "2023-09-25T14:02:13-04:00"
-title = "Data Elements in the FHR Database"
-linktitle = "Inputs outputs"
-weight = 40
-toc = "true"
-
-+++
+**Inputs & Outputs**
 
 In the FHR (Fetal Heart Rate) database, while we do not have traditional inputs and outputs data as found in some healthcare databases, there are other relevant data elements that are crucial for monitoring the well-being of both the child and the mother during pregnancy, labor, and delivery. These data elements provide valuable insights into the condition of the patients and the progress of childbirth. Below, we explore the key data elements and tables relevant to the FHR database.
 

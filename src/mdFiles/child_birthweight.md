@@ -1,10 +1,4 @@
-+++
-date = "2023-09-24T00:00:00Z"
-title = "Child Birth Weight Table"
-linktitle = "CHILD BIRTH WEIGHT"
-weight = 10
-toc = "true"
-+++
+**CHILD BIRTH WEIGHT**
 
 **Table source:** Hospital Database.
 

@@ -1,8 +1,9 @@
 // MarkdownDisplay.js
 
 import React, { useEffect, useState } from 'react';
-import MarkDown from 'markdown-to-jsx';
-
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import "./markdown.css";
 
 function MarkdownDisplay({ markdownPath }) {
 const [mdFile, setMdFile] = useState('');
@@ -19,10 +20,8 @@ useEffect(() => {
 });
 
   return (
-    <div className="markdown-container">
-     	<MarkDown>
-				{mdFile}
-			</MarkDown>
+    <div className="markdownDiv">
+      <ReactMarkdown remarkPlugins={[remarkGfm]}>{mdFile}</ReactMarkdown>
     </div>
   );
 }

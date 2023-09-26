@@ -1,10 +1,4 @@
-+++
-<!-- date = "2015-09-01T19:34:46-04:00" -->
-title = "The mother_labs table"
-linktitle = "mother_labs"
-weight = 10
-toc = "true"
-+++
+**mother_labs**
 
 **Table Source:** Hospital Database.
 
