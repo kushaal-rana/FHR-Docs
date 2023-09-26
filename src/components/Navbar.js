@@ -4,7 +4,7 @@ import './navbar.css';
 export default function Navbar() {
   const imagePath = process.env.PUBLIC_URL + '/favicon-32x32.png';
   return (
-    <nav className="navbar">
+        <nav className="navbar">
       <div className="logoAndName">
         <img href="#" src={imagePath} alt="SBU Medicine" className="logoSBUMed" />
         <a href="#" className="text-white text-xl font-bold">FHR</a>
@@ -14,5 +14,5 @@ export default function Navbar() {
           <a href="#" className="text-white text-xl font-bold">Community</a>
       </div>
     </nav>
-  )
+      )
 }

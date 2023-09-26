@@ -4,10 +4,10 @@ import Sidebar1 from "./components/Sidebar";
 
 function App() {
   return (
-      <div className="App">
-        <Navbar />
-        <Sidebar1 />
-      </div>
+    <div className="App">
+      <Navbar />
+      <Sidebar1 />
+        </div>
   );
 }
 
