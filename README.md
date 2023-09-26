@@ -2,7 +2,7 @@
  npm install -S remark-gfm@3.0.1 \
  npm install react-markdown \
  npm install react-router-dom \
- npm install react-pro-sidebar \
+ npm install react-pro-sidebar 
 
 
 # Getting Started with Create React App
