@@ -59,9 +59,9 @@ function App() {
             element={<MarkdownDisplay markdownPath="mother_labs.md" />}
           />
           <Route
-            path="/mother_peternal_delivery"
+            path="/mother_prenatal_delivery"
             element={
-              <MarkdownDisplay markdownPath="mother_peternal_delivery.md" />
+              <MarkdownDisplay markdownPath="mother_prenatal_delivery.md" />
             }
           />
           <Route

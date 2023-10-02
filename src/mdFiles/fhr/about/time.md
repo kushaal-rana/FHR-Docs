@@ -1,4 +1,4 @@
-**Times**
+<h1><b>Times</b></h1>
 
 In the FHR (Fetal Heart Rate) database, time-related information is vital for interpreting and analyzing data effectively. This documentation provides insights into various time-related columns and their significance within the database, using the actual tables and column names present in the FHR dataset.
 

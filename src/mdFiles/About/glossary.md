@@ -1,11 +1,4 @@
-+++
-date = "2023-09-25T14:02:13-04:00"
-title = "Glossary of terms"
-linktitle = "Glossary"
-weight = 30
-toc = "true"
-
-+++
+<h1><b>Glossary</b></h1>
 
 Term | Description
 ---- | -----

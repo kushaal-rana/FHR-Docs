@@ -3,7 +3,9 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from "rehype-raw";
 import "./markdown.css";
+
 
 function MarkdownDisplay({ markdownPath }) {
 const [mdFile, setMdFile] = useState('');
@@ -21,7 +23,7 @@ useEffect(() => {
 
   return (
     <div className="markdownDiv">
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>{mdFile}</ReactMarkdown>
+      <ReactMarkdown rehypePlugins={[rehypeRaw]} remarkPlugins={[remarkGfm]}>{mdFile}</ReactMarkdown>
     </div>
   );
 }

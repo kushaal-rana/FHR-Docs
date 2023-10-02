@@ -4,4 +4,20 @@
     position: absolute;
     top: 75px;
     left: 250px;
+    margin-top: 0px;
 }
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ol{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+th, td {
+    padding: 10px;
+  }
+  

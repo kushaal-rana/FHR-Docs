@@ -1,4 +1,4 @@
-**Postgres queries**
+<h1><bold>Postgres queries</bold></h1>
 
 Prerequisites: *This tutorial assumes that you have access to an instance of the FHR database running on a PostgreSQL server* Make sure you have the necessary permissions and connectivity to the database. If your FHR database is not on the default search path, adjust the schema accordingly in your SQL queries.
 
