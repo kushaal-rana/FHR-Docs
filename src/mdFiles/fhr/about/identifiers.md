@@ -1,4 +1,4 @@
-**Patient identifiers**
+<h1><b>Patient Identifiers</b></h1>
 
 The FHR (Fetal Heart Rate) database contains a wealth of clinical information recorded during routine patient care. It's important to understand the two main types of data within the database: static data and dynamic data. These distinctions help provide context for the nature of the information stored in the database.
 

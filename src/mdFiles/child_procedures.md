@@ -1,4 +1,4 @@
-**CHILD PROCEDURES**
+<h1><b>CHILD PROCEDURES</b></h1>
 
 **Table source:** Hospital Database.
 
@@ -36,27 +36,35 @@ This detailed record of procedures for children is a valuable resource for healt
 
 ## `id`, `child_person_id`, `child_encntr_id`, `mother_person_id`
 Each row in this table has a unique ID (`id`) representing the primary key. `child_person_id` identifies individual children, while `child_encntr_id` can vary, indicating multiple admissions for a single child. `mother_person_id` identifies the mother associated with the child's encounter.
+<br></br>
 
 ## `short_string`
 This column provides brief descriptions of the medical procedures performed, such as "Extraction, coronal remnants - deciduous tooth."
+<br></br>
 
 ## `source_string`
 Describes the source or origin of the medical procedures, including details like "EMERGENCY DEPT VISIT," "Circumcision," and more.
+<br></br>
 
 ## `source_identifier`
 Contains identifiers for the procedures, which may include codes like CPT4, ICD-10-PCS, SNOMED CT, HCPCS, and others.
+<br></br>
 
 ## `n_source_vocabulary_disp`
 Indicates the vocabulary or classification system used for procedure coding, including CPT4, ICD-10-PCS, SNOMED CT, HCPCS, and SNOMED International.
+<br></br>
 
 ## `proc_date`
 Stores the date on which the medical procedures were performed.
+<br></br>
 
 ## `en_loc_facility_disp`
 Describes the facility where the procedures took place, providing insights into the clinical setting.
+<br></br>
 
 ## `en_loc_nurse_unit_disp`
 Indicates the nurse unit within the facility where the procedures were performed. It includes locations such as "ED Pediatric," "NICU," "Newborn Nursery," and others.
+<br></br>
 
 ## `reg_dt_tm`, `disch_dt_tm`
 Timestamp columns representing the registration and discharge timestamps for each procedure event.

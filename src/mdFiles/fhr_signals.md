@@ -1,4 +1,4 @@
-**FHR SIGNALS**
+<h1><b>FHR SIGNALS</b></h1>
 
 **Table source:** Hospital Database.
 
@@ -28,12 +28,15 @@ This table serves as a repository for FHR signal data, with each row representin
 
 ## `child_person_id`
 This column contains a unique identifier for each child represented in the table. It helps establish a link between the FHR signals and the specific child. Each child's identifier is distinct.
+<br></br>
 
 ## `file_name`
 The `file_name` column stores the name of the file associated with the FHR signals. This information can be used to locate and retrieve the actual FHR data for analysis. File names are stored as strings.
+<br></br>
 
 ## `mother_person_id`
 Each mother is assigned a unique identifier in the `mother_person_id` column. This identifier distinguishes one mother from another in the database.
+<br></br>
 
 ## `mother_encounter_id`
 This column contains an identifier for each encounter or visit of the mother. It links the FHR signals to a specific encounter for the mother, allowing for temporal association between the FHR data and the mother's visit.
