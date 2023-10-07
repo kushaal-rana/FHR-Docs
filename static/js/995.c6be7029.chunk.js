@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfhr=self.webpackChunkfhr||[]).push([[995],{995:function(e,f,a){e.exports=a.p+"static/media/powerChart.f5db8f453adcb7340caf.md"}}]);
