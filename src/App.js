@@ -1,13 +1,13 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Sidebar1 from "./components/Sidebar";
-import { BrowserRouter,Route, Routes } from "react-router-dom";
+import { BrowserRouter ,Route,Routes, } from "react-router-dom";
 import MarkdownDisplay from "./components/MarkdownDisplay";
 
 function App() {
   return (
+    <BrowserRouter basename="/FHR-Docs">
     <div className="App">
-      <BrowserRouter>
       <Navbar />
       <Sidebar1 />
         <Routes>
@@ -132,9 +132,8 @@ function App() {
             }
           />
         </Routes>
-      </BrowserRouter>
-
     </div>
+      </BrowserRouter>
   );
 }
 
