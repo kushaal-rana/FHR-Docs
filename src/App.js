@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Sidebar1 from "./components/Sidebar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MarkdownDisplay from "./components/MarkdownDisplay";
-import Homepage from "./components/Homepage";
+
 function App() {
   return (
     <BrowserRouter basename="/FHR-Docs">
@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <Sidebar1 />
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/" element={<MarkdownDisplay markdownPath="homepage.md" />} />
           <Route
             path="/child_birthweight"
             element={<MarkdownDisplay markdownPath="child_birthweight.md" />}

@@ -3,11 +3,10 @@ import React from "react";
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 import "./sidebar.css";
 import { Link } from "react-router-dom";
-import Homepage from "./Homepage";
 
 function Sidebar1() {
   return (
-    <div style={{ display: "flex" }} className="sidebarDiv">
+    <div className="sidebarDiv">
       <Sidebar className="sidebar">
         <Menu>
           <MenuItem className="menu1">

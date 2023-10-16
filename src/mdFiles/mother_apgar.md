@@ -14,6 +14,7 @@
 This table is designed to record Apgar scores for mothers. Apgar scores are a standardized assessment tool used to evaluate the physical condition of newborns immediately after birth. These scores assess specific criteria such as heart rate, respiratory effort, muscle tone, reflex irritability, and color to determine the overall well-being of the newborn. The table also includes details about normalcy, measurement methods, and timing of assessments.
 
 # Important Considerations
+None
 <!-- 
 * The data is sourced from the admission, discharge, and transfer database from the hospital (often referred to as 'ADT' data).
 * Organ donor accounts are sometimes created for patients who died in the hospital. These are distinct hospital admissions with very short, sometimes negative lengths of stay. Furthermore, their `DEATHTIME` is frequently the same as the earlier patient admission's `DEATHTIME`.
@@ -42,34 +43,34 @@ c\_catalog\_disp | VARCHAR
 
 # Detailed Description
 
-## `mother_person_id`, `mother_encntr_id`
+### `mother_person_id`, `mother_encntr_id`
 Each row in the "mother_apgar" table contains a `mother_person_id` and `mother_encounter_id`. The `mother_person_id` represents a unique identifier for each mother, while `mother_encntr_id` can vary, indicating multiple admissions for a single mother at the hospital. This table can have duplicate `mother_person_id` values, reflecting multiple admissions for the same child.
 <br></br>
 
-## `c_event_disp`, `c_contributor_system_disp`, `contributor_system_cd`
+### `c_event_disp`, `c_contributor_system_disp`, `contributor_system_cd`
 These columns provide contextual information about the mother’s Apgar score assessment. `c_event_disp` describes the event, `c_contributor_system_disp` specifies the contributor system, and `contributor_system_cd` describes a code representing the contributor system.
 <br></br>
 
-## `normal_low`, `normal_high`
+### `normal_low`, `normal_high`
 The `normal_low` and `normal_high` columns define the expected normal range for the event specified.
 <br></br>
 
-## `c_normalcy_method_disp`, `c_normalcy_disp`
+### `c_normalcy_method_disp`, `c_normalcy_disp`
 `c_normalcy_method_disp` describes the method used to determine normalcy, while `c_normalcy_disp` indicates the normalcy status of the mother's delivery.
 <br></br>
 
-## `result_val`, `c_result_units_disp`, `c_result_status_disp`
+### `result_val`, `c_result_units_disp`, `c_result_status_disp`
 The `result_val` column contains the actual event measurement, `c_result_units_disp` specifies the units of measurement, and `c_result_status_disp` states the result states, for example, normal, abnormal.
 <br></br>
 
-## `valid_from_dt_tm`, `valid_until_dt_tm`
+### `valid_from_dt_tm`, `valid_until_dt_tm`
 `valid_from_dt_tm` and `valid_until_dt_tm` specify the start and end datetime for the validity period of the data.
 <br></br>
 
-## `clinical_event_id`
+### `clinical_event_id`
 Each row is assigned a unique `clinical_event_id`, which serves as a unique identifier for clinical events associated with the Apgar score assessment.
 <br></br>
 
-## `c_catalog_disp`
+### `c_catalog_disp`
 Description of the catalog associated with the Apgar score assessment.
 

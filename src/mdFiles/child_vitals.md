@@ -10,6 +10,7 @@
 This table contains information about the vital signs and measurements of pediatric patients during their hospital stays. It includes details such as the event description, contributor system information, event tags, and clinical event identifiers. Additionally, it records the normal range for each vital sign, event timestamps, and relevant data about the patients.
 
 **Important considerations:**
+None
 - 
 - 
 
@@ -66,21 +67,21 @@ This column may describe the method or criteria used to determine normalcy or ab
 Indicates whether the recorded vital sign or measurement falls within normal ("HI" for high, "LOW" for low) or exceeds the normal range (">HHI").
 <br></br>
 
-## `result_val`
+### `result_val`
 Contains the actual numeric value of the vital sign or measurement, such as heart rate in bpm (beats per minute), temperature in degrees Celsius, or other relevant units.
 <br></br>
 
-## `c_result_units_disp`
+### `c_result_units_disp`
 Specifies the units of measurement for each recorded vital sign, including "%," "bpm," "DegC" (degrees Celsius), "br/min" (breaths per minute), "mmHg" (millimeters of mercury), "cm" (centimeters), "kg" (kilograms), "m2" (square meters), and "kg/m2" (kilograms per square meter).
 <br></br>
 
-## `c_result_time_units_disp`
+### `c_result_time_units_disp`
 This column specifies the units of time associated with certain vital sign measurements in the "Child_Vitals" table.
 <br></br>
 
-## `c_result_status_disp`
+### `c_result_status_disp`
 Indicates the status of the recorded vital sign or measurement, such as "Final," "Modified," "Preliminary," "Not Done," "In Progress," or "In Error."
 <br></br>
 
-## `valid_from_dt_tm`, `valid_until_dt_tm`
+### `valid_from_dt_tm`, `valid_until_dt_tm`
 Timestamps representing the validity period of each vital sign reading. "valid_from_dt_tm" indicates when the measurement was recorded, and "valid_until_dt_tm" indicates the end of the validity period.

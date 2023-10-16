@@ -31,9 +31,9 @@ mother\_encntr\_id | INT8
 
 # Detailed Description
 
-## `child_person_id`, `mother_person_id`, `mother_encounter_id`
+### `child_person_id`, `mother_person_id`, `mother_encounter_id`
 Each row in the "mother_child_link" table contains a `child_person_id`, `mother_person_id`, and `mother_encounter_id`. The `child_person_id` represents a unique identifier for each child. The `mother_person_id` represents a unique identifier for each mother, while `mother_encntr_id` can vary, indicating multiple admissions for a single mother at the hospital. This table can have duplicate `mother_person_id` values, reflecting multiple admissions for the same child.
 <br></br>
 
-## `birth_dt_tm`, `reg_dt_tm`
+### `birth_dt_tm`, `reg_dt_tm`
 The `birth_dt_tm` states the date and time of the child's birth. This timestamp records when the birth event occurred, while `reg_dt_tm` refers to the date and time of registration or recording of the mother-child relationship. It indicates when the linkage was established.

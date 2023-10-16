@@ -5,8 +5,8 @@
     display: flex;
     justify-content: space-between; /* Spacing divs to left and right */
     align-items: center; /* Vertically center the content */
-  }
-  
+}
+
 .logoAndName {
     display: flex;
     align-items: center;

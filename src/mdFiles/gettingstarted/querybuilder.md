@@ -2,7 +2,7 @@
 The FHR Database Query Tool is a user-friendly interface designed for executing SQL queries on the Fetal Heart Rate (FHR) database. This tool is primarily tailored for researchers who want to perform basic data exploration within the FHR database or those who are new to working with this dataset and wish to understand its structure. 
 <br></br>
 
-<h2><b>Important considerations and constraints:</b></h2>
+### Important considerations and constraints
 <p>
 When formulating queries, it's essential to adhere to PostgreSQL syntax. To ensure optimal server performance and resource management, we have imposed the following limitations:
 </p>

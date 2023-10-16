@@ -6,7 +6,6 @@ PowerChart is a comprehensive electronic health record (EHR) system developed by
 Key points about PowerChart in relation to our FHR database:
 
 * <b>Data Source:</b> PowerChart serves as the primary source for the FHR database. It captures critical patient information, including fetal heart rate data, during routine clinical care.
-
 * <b>Data Integration:</b> The FHR database integrates seamlessly with PowerChart, allowing for the collection and organization of vital fetal monitoring data over time.
 
 * <b>Patient Records:</b> PowerChart maintains electronic patient records, making it an essential component for tracking the health and well-being of both mothers and infants during pregnancy and labor.
