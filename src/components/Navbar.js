@@ -1,18 +1,32 @@
-import React from 'react';
-import './navbar.css';
+import React from "react";
+import "./navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
-  const imagePath = process.env.PUBLIC_URL + '/favicon-32x32.png';
+  const imagePath = process.env.PUBLIC_URL + "/favicon-32x32.png";
   return (
-        <nav className="navbar">
+    <nav className="navbar">
       <div className="logoAndName">
-        <img href="#" src={imagePath} alt="SBU Medicine" className="logoSBUMed" />
-        <a href="#" className="text-white text-xl font-bold">SBU-FHR</a>
+        <img
+          href="#"
+          src={imagePath}
+          alt="SBU Medicine"
+          className="logoSBUMed"
+        />
+
+        <Link to="/" className="text-white text-xl font-bold">
+          SBU-FHR
+        </Link>
       </div>
       <div className="links">
-          <a href="#" className="text-white text-xl font-bold">Docs</a>
-          <a href="#" className="text-white text-xl font-bold">Community</a>
+        <Link to="/" className="text-white text-xl font-bold">
+          Docs
+        </Link>
+
+        <a href="#" className="text-white text-xl font-bold">
+          Community
+        </a>
       </div>
     </nav>
-      )
+  );
 }

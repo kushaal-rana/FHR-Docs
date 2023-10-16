@@ -1,16 +1,17 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Sidebar1 from "./components/Sidebar";
-import { BrowserRouter ,Route,Routes, } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MarkdownDisplay from "./components/MarkdownDisplay";
-
+import Homepage from "./components/Homepage";
 function App() {
   return (
     <BrowserRouter basename="/FHR-Docs">
-    <div className="App">
-      <Navbar />
-      <Sidebar1 />
+      <div className="App">
+        <Navbar />
+        <Sidebar1 />
         <Routes>
+          <Route path="/" element={<Homepage />} />
           <Route
             path="/child_birthweight"
             element={<MarkdownDisplay markdownPath="child_birthweight.md" />}
@@ -79,9 +80,7 @@ function App() {
           />
           <Route
             path="/About/glossary"
-            element={
-              <MarkdownDisplay markdownPath="About/glossary.md" />
-            }
+            element={<MarkdownDisplay markdownPath="About/glossary.md" />}
           />
           <Route
             path="/fhr/about/tutorials/queries"
@@ -91,9 +90,7 @@ function App() {
           />
           <Route
             path="/fhr/about/datatypes"
-            element={
-              <MarkdownDisplay markdownPath="fhr/about/datatypes.md" />
-            }
+            element={<MarkdownDisplay markdownPath="fhr/about/datatypes.md" />}
           />
           <Route
             path="/fhr/about/identifiers"
@@ -103,21 +100,15 @@ function App() {
           />
           <Route
             path="/fhr/about/io"
-            element={
-              <MarkdownDisplay markdownPath="fhr/about/io.md" />
-            }
+            element={<MarkdownDisplay markdownPath="fhr/about/io.md" />}
           />
           <Route
             path="/fhr/about/schema"
-            element={
-              <MarkdownDisplay markdownPath="fhr/about/schema.md" />
-            }
+            element={<MarkdownDisplay markdownPath="fhr/about/schema.md" />}
           />
           <Route
             path="/fhr/about/time"
-            element={
-              <MarkdownDisplay markdownPath="fhr/about/time.md" />
-            }
+            element={<MarkdownDisplay markdownPath="fhr/about/time.md" />}
           />
           <Route
             path="/fhr/tutorials/queries"
@@ -132,8 +123,8 @@ function App() {
             }
           />
         </Routes>
-    </div>
-      </BrowserRouter>
+      </div>
+    </BrowserRouter>
   );
 }
 
