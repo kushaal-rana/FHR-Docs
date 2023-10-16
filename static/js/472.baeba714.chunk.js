@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfhr=self.webpackChunkfhr||[]).push([[472],{472:function(e,s,f){e.exports=f.p+"static/media/child_diagnosis.46988ee85fdf59a57900.md"}}]);
