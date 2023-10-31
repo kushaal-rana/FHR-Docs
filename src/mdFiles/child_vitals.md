@@ -4,7 +4,7 @@
 
 **Table purpose:** The "Child_Vitals" table has contains vital sign measurements and related information for children.
 
-**Number of rows:** 138,031
+**Number of rows:** 11580799
 
 **Brief summary:**
 This table contains information about the vital signs and measurements of pediatric patients during their hospital stays. It includes details such as the event description, contributor system information, event tags, and clinical event identifiers. Additionally, it records the normal range for each vital sign, event timestamps, and relevant data about the patients.

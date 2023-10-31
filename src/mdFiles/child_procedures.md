@@ -4,7 +4,7 @@
 
 **Table purpose:** The "Child_Procedures" table records various medical procedures performed on pediatric patients during their hospital encounters.
 
-**Number of rows:** 138,031
+**Number of rows:** 20265
 
 **Important considerations:**
 None

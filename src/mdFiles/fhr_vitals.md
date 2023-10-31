@@ -4,7 +4,7 @@
 
 **Table purpose:** The "FHR_Vitals" table contains vital signs data for mothers during their encounters, including blood pressure, body surface area (BSA), heart rate, pain intensity, oxygen levels, weight, height, and more, providing critical information about maternal health status during different encounters.
 
-**Number of rows:** 138,031
+**Number of rows:** 745982
 
 **Brief summary:**
 The "FHR_Vitals" table is designed to capture and store various vital signs data for mothers during their encounters, enabling monitoring and assessment of maternal health.
