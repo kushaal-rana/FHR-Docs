@@ -5,24 +5,33 @@ The SBU-FHRdatabase includes a web-based querying tool that enables physicians a
 <p> 
 <b>Overview of CTG Databases used in literature:</b> We systematically searched the electronic database PubMed including records up to 2020. We restricted the study language to English. A range of keywords was employed in the study, including cardiotocography (CTG), fetal heart rate (FHR), maternal heart rate (MHR), uterine contraction (TOCO), fetal heart rate monitoring, computer-assisted diagnosis, fetal distress, asphyxia, hypoxemia, and fetal hypoxia. The chosen papers underwent a process of reference searching, wherein both the references within the articles themselves and the articles that cited the original study were examined. Due to the limitations of providing a comprehensive evaluation, a set of inclusion criteria was employed to ensure the inclusion of relevant works while maintaining a clear overview. Initially, in cases where a CTG database was utilized across numerous studies, we selected the manuscript that provided the most comprehensive description of said database. Incorporating the identical description, we have provided the latest up-to-date paper. For instance, example required.
 </p>
-### Methods
+
+# Methods
 <p>
-<b>Ethics statement:</b> <br></br>The FHR recordings and clinical data were paired using a unique identifier that was anonymized and provided by the hospital information system. The CTG data were synchronized with the stages of labor, specifically the first and second stages, and were afterward adjusted relative to the time of birth to ensure de-identification. The present study received approval from the Institutional Review Board of University Hospital X, and all female participants provided their informed permission.
+<b>Ethics statement:</b> <br/>
+The FHR recordings and clinical data were paired using a unique identifier that was anonymized and provided by the hospital information system. The CTG data were synchronized with the stages of labor, specifically the first and second stages, and were afterward adjusted relative to the time of birth to ensure de-identification. The present study received approval from the Institutional Review Board of University Hospital X, and all female participants provided their informed permission.
 </p>
+<br/>
 <p>
-<b>Data collection:</b> <br></br>The data were gathered from the period spanning from Aug 1st, 2020, to August 1st, 2023, at the obstetrics unit located within the University Hospital in Brno, Czech Republic. The dataset included Maternal-Fetal data that included CTG signals along with maternal vitals, procedures, co-morbidities, pre-natal delivery variables, as well as outcomes. The CTGs were recorded using the STAN S21 and S31 fetal monitors manufactured by Neoventa Medical in Mölndal, Sweden, as well as the Avalon FM40 and FM50 fetal monitors manufactured by Philips Healthcare in Andover, MA. The CTG signals were electronically recorded within the OB TraceVue® system, developed by Philips, in a format exclusive to the system. To convert these signals into a text format, proprietary software provided by Philips was utilized. Every CTG record consists of time information and signals representing the fetal heart rate and uterine contractions, which are both sampled at a rate of 4 Hz. The recording of a signal utilizing an internal scalp electrode yielded further data pertaining to the T/QRS ratio and the characteristics of the biphasic T-wave. A final database of 552 carefully chosen cardiotocography (CTG) recordings was compiled from an initial pool of 9164 intrapartum recordings. The selection process took into account both clinical and technological factors. Further information regarding the criteria used for selecting the recordings is provided.
+<b>Data collection:</b><br/>
+The data were gathered from the period spanning from Aug 1st, 2020, to August 1st, 2023, at the obstetrics unit located within the University Hospital in Brno, Czech Republic. The dataset included Maternal-Fetal data that included CTG signals along with maternal vitals, procedures, co-morbidities, pre-natal delivery variables, as well as outcomes. The CTGs were recorded using the STAN S21 and S31 fetal monitors manufactured by Neoventa Medical in Mölndal, Sweden, as well as the Avalon FM40 and FM50 fetal monitors manufactured by Philips Healthcare in Andover, MA. The CTG signals were electronically recorded within the OB TraceVue® system, developed by Philips, in a format exclusive to the system. To convert these signals into a text format, proprietary software provided by Philips was utilized. Every CTG record consists of time information and signals representing the fetal heart rate and uterine contractions, which are both sampled at a rate of 4 Hz. The recording of a signal utilizing an internal scalp electrode yielded further data pertaining to the T/QRS ratio and the characteristics of the biphasic T-wave. A final database of 552 carefully chosen cardiotocography (CTG) recordings was compiled from an initial pool of 9164 intrapartum recordings. The selection process took into account both clinical and technological factors. Further information regarding the criteria used for selecting the recordings is provided.
 <br></br>
 The clinical data were maintained within the hospital information system (AMIS) using a relational database. Comprehensive clinical data pertaining to the birth and fetal/maternal status were collected. The clinical data encompassed various aspects, such as delivery descriptors (including fetal presentation, delivery type, and duration of the first and second stage), neonatal outcomes (such as seizures and intubation), fetal and neonatal descriptors (including sex, gestational age, and weight), as well as information pertaining to the mother and potential risk factors. The clinical data from the final SBU-FHRdatabase were extracted from a relational database and subsequently transformed into the Physionet text format.
 </p>
+<br/>
 <p>
-<b>Data selection and criteria considered:</b> <br></br>The selection procedure of the records was based on both clinical and CTG signal parameters, and the process is shown in
+<b>Data selection and criteria considered:</b> <br/>
+The selection procedure of the records was based on both clinical and CTG signal parameters, and the process is shown in
 65 Figure X.
 </p>
+<br/>
 <p>
-<b>Clinical criteria:</b> <br></br>The subsequent paragraphs delineate the criteria employed for the exclusion of records. Furthermore, we will briefly address the criteria that were incorporated into the final database’s description but were not utilized for the purpose of excluding records.
+<b>Clinical criteria:</b> <br/>
+The subsequent paragraphs delineate the criteria employed for the exclusion of records. Furthermore, we will briefly address the criteria that were incorporated into the final database’s description but were not utilized for the purpose of excluding records.
 </p>
+<br/>
 <p>
-<b>Clinical selection criteria:</b>
+<b>Clinical selection criteria:</b><br/>
 The inclusion of recordings into the final database was determined based on the following characteristics. The references provided in this section pertain to a detailed explanation of a certain parameter.
 <ol>
 <ul><b>Women’s Age: </b> The age of women has been discovered to have a substantial impact on the likelihood of congenital illnesses. However, no significant relationship was observed between women’s age and the intrapartum period1 Adolescent maternal age, defined as being below 18 years old, has been associated with negative outcomes2. Consequently, data pertaining to this age group were omitted from the analysis.</ul>
@@ -32,6 +41,7 @@ The inclusion of recordings into the final database was determined based on the 
 <ul><b>Type of gravidity</b>  Fonly singleton, uncomplicated pregnancies were included.</ul>
 </ol>
 </p>
+<br/>
 <p>
 <b>Additional clinical criteria provided: </b>
 In addition to the criteria employed for selection, the subsequent criteria were taken into account and are accessible with the CTG data.
@@ -66,6 +76,6 @@ Although the pH is widely utilized as a measure, we have incorporated supplement
 <ul>• The subjective assessment of the delivery outcome is conducted using Apgar’s score, which involves the evaluation of a newborn kid in the 1st, 5th, and 10th minute after birth using five categories10. </ul>
 </ol>
 </br>
-The entire information was utilized for the purpose of conducting a study on inter- and intra-observer variability. In this research, a cohort of nine experienced obstetricians assessed the cardiotocography (CTG) signals. Once processed, the clinical evaluation will be incorporated into the database.
+<i>The entire information was utilized for the purpose of conducting a study on inter- and intra-observer variability. In this research, a cohort of nine experienced obstetricians assessed the cardiotocography (CTG) signals. Once processed, the clinical evaluation will be incorporated into the database.</i>
 </p>
 

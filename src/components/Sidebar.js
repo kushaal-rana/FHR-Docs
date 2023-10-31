@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Sidebar1() {
   return (
-    <div className="sidebarDiv">
+    <div className="sidebarDiv" style={{height: '100vh', width: '300px'}}>
       <Sidebar className="sidebar">
         <Menu>
           <MenuItem className="menu1">
