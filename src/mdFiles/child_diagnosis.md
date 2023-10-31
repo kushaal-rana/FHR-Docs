@@ -4,7 +4,7 @@
 
 **Table purpose:** Records pediatric patient diagnoses during hospital admissions.
 
-**Number of rows:** 138,031
+**Number of rows:** 489323
 
 **Brief summary:**
 This table contains data about diagnoses for pediatric patients, including timestamps, nurse units, medical services, present-on-admission status, severity, and severity class.

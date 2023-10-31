@@ -4,7 +4,7 @@
 
 **Table purpose:** The "FHR_Signals" table stores fetal heart rate (FHR) signal data file names, linking them to specific children, mothers, and encounters.
 
-**Number of rows:** 138,031
+**Number of rows:** 34381
 
 **Brief summary:**
 The "FHR_Signals" table plays a crucial role in organizing and associating FHR data with relevant children and maternal encounters.

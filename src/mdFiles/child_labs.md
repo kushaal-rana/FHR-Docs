@@ -4,7 +4,7 @@
 
 **Table purpose:** The "Child_Labs" table has information related to laboratory tests and results for pediatric patients during their hospital encounters.
 
-**Number of rows:** 138,031
+**Number of rows:** 1146261
 
 **Brief summary:**
 The "Child_Labs" table serves as a comprehensive repository of laboratory test data for pediatric patients during their hospital encounters. Each row in the table corresponds to a specific laboratory test event, with unique IDs. It is important for tracking and analyzing laboratory test results, contributing to the monitoring and assessment of pediatric patients' health during their hospital admissions.

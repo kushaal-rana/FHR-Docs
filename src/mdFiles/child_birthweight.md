@@ -4,7 +4,7 @@
 
 **Table purpose:** Records birth weight data for newborn children in the hospital.
 
-**Number of rows:** 138,031
+**Number of rows:** 138031
 
 **Brief summary:**
 This table contains information about the birth weight of newborn children in the hospital. It includes details such as the event description, contributor system information, event tags, and clinical event identifiers. Additionally, it records the normal range for birth weights, event timestamps, and relevant data about the babies.
