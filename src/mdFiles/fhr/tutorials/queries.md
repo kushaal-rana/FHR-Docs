@@ -1,13 +1,13 @@
 <h1><b>Postgres queries</b></h1>
 
-Prerequisites: *This tutorial assumes that you have access to an instance of the FHR database running on a PostgreSQL server*
-
+<!-- Prerequisites: *This tutorial assumes that you have access to an instance of the FHR database running on a PostgreSQL server* -->
+<!-- 
 <p>Make sure you have the necessary permissions and connectivity to the database. If your FHR database is not on the default search path, adjust the schema accordingly in your SQL queries. </p>
-<br/>
+<br/> -->
 
-### 1. Overview
+## 1. Overview
 
-This tutorial provides an introduction to querying the FHR (Fetal Heart Rate) database using SQL. By the end of this tutorial, you will be able to:
+This tutorial provides an introduction to the structure and content of the FHR database. By the end of this tutorial you will be able to:
 
 * Obtain metadata for database tables and columns.
 * Perform basic SQL queries on individual tables.
@@ -15,83 +15,125 @@ This tutorial provides an introduction to querying the FHR (Fetal Heart Rate) da
 * Utilize database views to retrieve high-level data.
 <br></br>
 
-### 2. Database metadata
+### STEPS TO EXECUTE QUERIES USING DBEAVER
 
-You can retrieve metadata for specific tables and columns in the FHR database using SQL commands. 
-To obtain metadata for a table, use the following query as an example:
+### CONNECT TO THE VPN (IF NOT IN HOSPITAL SERVER)
+![Connection to VPN](/src/static/img/hotspotconnection.png)
+### INSTALL DBEAVER TOOL
+### CONNECT TO THE DATABASE
+![Connection to Database](/src/static/img/dbconnection.png)
+![Connection to Database](/src/static/img/dbconnection2.png)
+### NOW YOU WILL BE CONNECTED TO THE DATABASE
+![Queries ](/src/static/img/queries1.png)
+### NOW EXECUTE THE SQL QUERIES ON REQUIRED TABLES
+![SQL Queries](/src/static/img/queries2.png)
+
+## 2. Database metadata
+
+List the name of all clinical data we have in this database
+</br>
+Use: This query provides an overview of the available clinical data, which is essential for understanding the scope and types of data stored in the database.
+</br>
+
+## 3. Patient Information
+
+List of mothers who had category 3
+<br></br>
+
+<b>Use:</b> This query identifies mothers associated with a specific category (e.g., maternal care category), aiding in the tracking and management of maternity care.
+Mothers who did not have an emergency c-section
+</br>
+<b>Use:</b> This query helps in identifying mothers who did not undergo an emergency cesarean section, which is important for analyzing childbirth procedures and outcomes.
+List of babies who had multiple abnormal conditions
+</br>
+<b>Use:</b> This query retrieves infants with multiple abnormal health conditions, which is valuable for monitoring and managing high-risk neonatal cases.
+</br>
+
+## 4. FHR signal
+
+How many recordings contain useful information
+</br>
+
+<b>Use:</b> This query counts the number of recordings with valuable Fetal Heart Rate (FHR) signals, aiding in assessing data quality and completeness in fetal monitoring.
+What is the missing rate of FHR with ID # 9182620
+</br>
+<b>Use:</b> This query calculates the missing rate of FHR data for a specific child, helping evaluate data completeness and quality in fetal monitoring.
+
+</br>
+
+## 5. Diabetes Diagnosis 
+
+List of mothers who had diabetes
+<b>Use:</b> This query identifies mothers with diabetes diagnoses, which is essential for managing and monitoring diabetic patients during pregnancy.
+</br>
+
+## 6. ChildBirth and Maternity information
+
+ChildBirth and Maternity Information
+</br>
+How many babies are the first child?
+</br>
+<b>Use:</b>This query counts the number of babies who are the firstborn, which is important for understanding birth order and maternal healthcare.
+How many recordings contain uterine activity signals
+
+</br>
+<b>Use:</b>This query counts the recordings containing uterine activity signals, which is crucial for monitoring uterine contractions during labor.
+How many babies were born during 01/01/2019 and 12/31/2019
+
+</br>
+<b>Use:</b>This query determines the number of babies born within a specific date range, aiding in patient record management and resource allocation.
+
+</br>
+
+## 6. Problem 
+
+Step 1: Get the list of children who have a birth date and mother encounter ID.
 
 ``` sql
-Display metadata for the child_birthweight table \d+ child_birthweight;
+SELECT child_person_id
+FROM querytool_2023.mother_child_link
+WHERE birth_dt_tm IS NOT NULL AND mother_encntr_id IS NOT NULL;
 ```
-
-This command will show information about columns, data types, constraints, and more for the specified table. 
-You can explore metadata for other tables like `child_diagnosis`, `child_labs`, and `mother_person`.
 <br></br>
 
-### 3. Basic Queries
-
-Let's start with some basic SQL queries to retrieve data from individual tables:
-<br></br>
-
-### 3.1. Find Distinct Diagnosis Types for Child Encounters
+Step  2: Find children who were in the NICU.
 
 ``` sql
-Get child birthweights with associated IDs SELECT child_person_id, child_encntr_id, result_val AS birthweight FROM child_birthweight;
+SELECT DISTINCT mother_encntr_id
+FROM querytool_2023.mother_diagnosis
+WHERE en_loc_nurse_unit_disp = 'NICU';
 ```
-
-This query retrieves child birthweights along with their associated person and encounter IDs.
 <br></br>
 
-### 3.2. Find Distinct Diagnosis Types for Child Encounters
+Step  3: Find children who were in the ICU.
 
-```sql
-List distinct diagnosis types for child encounters SELECT DISTINCT(d_diag_type_disp) AS diagnosis_type FROM child_diagnosis;
+``` sql
+SELECT DISTINCT mother_encntr_id
+FROM querytool_2023.mother_diagnosis
+WHERE en_loc_nurse_unit_disp = 'ICU';;
 ```
-
-This query lists unique diagnosis types for child encounters.
 <br></br>
 
-### 3.3. Retrieve Mother's Lab Results
-```sql
-Get lab results for mothers along with normalcy status
-SELECT mother_person_id, mother_encntr_id, c_event_disp AS lab_event, result_val AS lab_result, c_normalcy_disp AS normalcy_status FROM mother_labs;
+Step  4: Determine how many children were in both NICU and ICU.
+
+``` sql
+SELECT COUNT(*)
+FROM (
+    SELECT child_person_id
+    FROM querytool_2023.mother_child_link
+    WHERE birth_dt_tm IS NOT NULL AND mother_encntr_id IS NOT NULL
+) AS A
+WHERE A.mother_encntr_id IN (
+    SELECT DISTINCT mother_encntr_id
+    FROM querytool_2023.mother_diagnosis
+    WHERE en_loc_nurse_unit_disp = 'NICU'
+)
+AND A.mother_encntr_id IN (
+    SELECT DISTINCT mother_encntr_id
+    FROM querytool_2023.mother_diagnosis
+    WHERE en_loc_nurse_unit_disp = 'ICU'
+);
 ```
-
-This query retrieves lab results for mothers and includes their normalcy status.
 <br></br>
-
-### 4. Combining Tables with Joins
-
-Now, let's combine tables using SQL joins to extract more meaningful insights:
-<br></br>
-
-### 4.1. Count FHR Signals per Mother
-
-```sql
-Count the number of FHR signals per mother SELECT mother_person_id, COUNT(*) AS signal_count FROM fhr_signals GROUP BY mother_person_id;
-```
-This query counts the number of FHR signals for each mother in the database.
-<br></br>
-
-### 4.2. Retrieve Child Procedures for a Specific Encounter
-
-```sql
-Get child procedures for a specific encounter (replace [Encounter_ID] with the actual ID) 
-SELECT child_person_id, child_encntr_id, short_string AS procedure_description FROM child_procedures WHERE child_encntr_id = [Encounter_ID];
-```
-Replace [`Encounter_ID`] with the actual encounter ID to find child procedures for that specific encounter.
-<br></br>
-
-### 5. Using Views
-
-You can also utilize database views to extract high-level information:
-
-```sql
-Sample view to find mother-patient links 
-CREATE OR REPLACE VIEW mother_patient_links AS SELECT mother_person_id, child_person_id, birth_dt_tm FROM mother_child_link;
-Retrieve mother-patient links using the view SELECT * FROM mother_patient_links;
-```
-This example creates a view to find links between mothers and children and then retrieves data from the view.
-These are introductory SQL queries to help you get started with querying the FHR database.
-<br></br>
-<i>Customize and expand these queries to meet your specific research needs.</i>
+This final query will give you the count of babies who were in both NICU and ICU.
+</br>
