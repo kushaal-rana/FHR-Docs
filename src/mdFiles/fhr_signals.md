@@ -9,11 +9,6 @@
 **Brief summary:**
 The "FHR_Signals" table plays a crucial role in organizing and associating FHR data with relevant children and maternal encounters.
 
-**Important considerations:**
-None
-- 
-- 
-
 # Table columns
 
 Name | Postgres data type
@@ -27,6 +22,7 @@ mother\_encounter\_id | INT8
 
 This table serves as a repository for FHR signal data, with each row representing a unique combination of child, mother, and encounter. The columns in this table include:
 <br/>
+
 ### `child_person_id`
 This column contains a unique identifier for each child represented in the table. It helps establish a link between the FHR signals and the specific child. Each child's identifier is distinct.
 <br></br>
