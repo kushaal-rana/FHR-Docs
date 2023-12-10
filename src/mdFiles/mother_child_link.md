@@ -13,7 +13,7 @@
 
 This table is designed to establish a connection between mothers and their children, typically newborns, by recording the identifiers of both the mother and child, as well as important timestamps and encounter identifiers. It is essential for maintaining the relationship between mothers and their infants in the healthcare system.
 
-# Important Considerations
+<!-- # Important Considerations -->
 <!-- 
 * The data is sourced from the admission, discharge, and transfer database from the hospital (often referred to as 'ADT' data).
 * Organ donor accounts are sometimes created for patients who died in the hospital. These are distinct hospital admissions with very short, sometimes negative lengths of stay. Furthermore, their `DEATHTIME` is frequently the same as the earlier patient admission's `DEATHTIME`.
@@ -26,8 +26,8 @@ Name | Postgres Data Type
 mother\_person\_id | INT8
 child\_person\_id | INT8
 birth\_dt\_tm | TIMESTAMP
-reg\_dt\_tm | TIMESTAMP
 mother\_encntr\_id | INT8
+reg\_dt\_tm | TIMESTAMP
 
 # Detailed Description
 
