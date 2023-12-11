@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfhr=self.webpackChunkfhr||[]).push([[767],{767:function(e,a,s){e.exports=s.p+"static/media/fhr_vitals.a9deec97beca7a75734f.md"}}]);

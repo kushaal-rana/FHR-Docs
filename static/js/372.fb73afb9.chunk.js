@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfhr=self.webpackChunkfhr||[]).push([[372],{372:function(e,t,a){e.exports=a.p+"static/media/mother_prenatal_delivery.4eaf6c7e61d53855b196.md"}}]);
