@@ -19,6 +19,12 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="links">
+        <Link
+          to="http://172.31.158.228/"
+          className="text-white text-xl font-bold"
+        >
+          Query Tool
+        </Link>
         <Link to="/" className="text-white text-xl font-bold">
           Docs
         </Link>
