@@ -70,3 +70,6 @@ Indicates the normalcy status of test results, suggesting different result inter
 ### `c_result_status_disp`
 Describes the status of the test results, indicating the result's completeness or accuracy.
 <br></br>
+
+### `reg_dt_tm`, `disch_dt_tm`
+Timestamp columns indicating the registration and discharge timestamps for each laboratory test event.
