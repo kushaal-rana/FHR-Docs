@@ -94,6 +94,11 @@ Watch this video tutorial for a hands-on demonstration of the Query Builder tool
 
 ![Query Interface](/src/static/img/query_interface.mp4)
 
+<video width="640" height="360" controls>
+  <source src = "/src/static/img/query_interface.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Tips for Effective Queries
 - Ensure that you have the correct spelling and case for table names and conditions.
