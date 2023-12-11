@@ -5,10 +5,6 @@
 <p>Make sure you have the necessary permissions and connectivity to the database. If your FHR database is not on the default search path, adjust the schema accordingly in your SQL queries. </p>
 <br/> -->
 
-## 1. Query Builder Tool
-
-<br></br>
-
 ## Introduction
 
 Welcome to the Query Builder tool, a dynamic interface designed to construct and run custom database queries with ease. This tool allows you to select from a list of tables, specify columns, and define conditions to retrieve specific data from the database.
