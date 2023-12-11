@@ -113,7 +113,7 @@ function App() {
           <Route
             path="/fhr/tutorials/queries"
             element={
-              <MarkdownDisplay markdownPath="fhr/tutorials/queries.md" />
+              <MarkdownDisplay markdownPath="fhr/tutorials/query_tool.md" />
             }
           />
           <Route
