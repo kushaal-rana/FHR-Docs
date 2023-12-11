@@ -17,6 +17,6 @@ Instructions for getting access to the FHR database, and detail about cloud serv
 # FHR
 Explore the intricacies of the FHR (Fetal Heart Rate) database, including its tables, columns, and the types of data it contains.
 <br></br> -->
-<br/>
+
 
 <i>Thank you for choosing the FHR database as your resource for maternal and fetal healthcare research. We're here to assist you in unlocking valuable insights from this extensive dataset.</i>

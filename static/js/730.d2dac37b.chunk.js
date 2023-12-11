@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfhr=self.webpackChunkfhr||[]).push([[730],{730:function(e,s,f){e.exports=f.p+"static/media/mother_diagnosis.37d5718fe410fe5ee635.md"}}]);
