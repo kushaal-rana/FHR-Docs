@@ -51,9 +51,9 @@ Specifies the units of measurement for each recorded vital sign, including "%," 
 These columns represent the normal or reference range for each vital sign or measurement. They provide the lower and upper boundaries within which values are considered normal. For example, for "Temperature Axillary," the normal range is between 35.2°C and 37.3°C.
 <br></br>
 
-### `c_normalcy_method_disp`
+<!-- ### `c_normalcy_method_disp`
 This column may describe the method or criteria used to determine normalcy or abnormality.
-<br></br>
+<br></br> -->
 
 ### `c_normalcy_disp`
 Indicates whether the recorded vital sign or measurement falls within normal ("HI" for high, "LOW" for low) or exceeds the normal range (">HHI").

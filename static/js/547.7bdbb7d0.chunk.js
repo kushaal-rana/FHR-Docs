@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfhr=self.webpackChunkfhr||[]).push([[547],{547:function(e,c,a){e.exports=a.p+"static/media/mother_apgar.cd3414c7c323e5a33006.md"}}]);

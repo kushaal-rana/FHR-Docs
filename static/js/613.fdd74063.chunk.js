@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfhr=self.webpackChunkfhr||[]).push([[613],{613:function(c,e,f){c.exports=f.p+"static/media/child_vitals.bfaff59e1110c0cd7528.md"}}]);

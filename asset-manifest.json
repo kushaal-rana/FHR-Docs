@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FHR-Docs/static/css/main.2b39ebdb.css",
-    "main.js": "/FHR-Docs/static/js/main.28e1df7f.js",
+    "main.js": "/FHR-Docs/static/js/main.3ec481cf.js",
     "static/js/397.0743e173.chunk.js": "/FHR-Docs/static/js/397.0743e173.chunk.js",
     "static/js/974.efaea2b8.chunk.js": "/FHR-Docs/static/js/974.efaea2b8.chunk.js",
     "static/js/995.6609fe14.chunk.js": "/FHR-Docs/static/js/995.6609fe14.chunk.js",
     "static/js/759.bf50ad22.chunk.js": "/FHR-Docs/static/js/759.bf50ad22.chunk.js",
     "static/js/472.f4699123.chunk.js": "/FHR-Docs/static/js/472.f4699123.chunk.js",
-    "static/js/888.9baa3d91.chunk.js": "/FHR-Docs/static/js/888.9baa3d91.chunk.js",
+    "static/js/888.28220691.chunk.js": "/FHR-Docs/static/js/888.28220691.chunk.js",
     "static/js/606.c97fb055.chunk.js": "/FHR-Docs/static/js/606.c97fb055.chunk.js",
-    "static/js/613.7c5d6a1b.chunk.js": "/FHR-Docs/static/js/613.7c5d6a1b.chunk.js",
+    "static/js/613.fdd74063.chunk.js": "/FHR-Docs/static/js/613.fdd74063.chunk.js",
     "static/js/327.ca4d9878.chunk.js": "/FHR-Docs/static/js/327.ca4d9878.chunk.js",
     "static/js/33.30f01d4b.chunk.js": "/FHR-Docs/static/js/33.30f01d4b.chunk.js",
     "static/js/798.4a443063.chunk.js": "/FHR-Docs/static/js/798.4a443063.chunk.js",
@@ -22,7 +22,7 @@
     "static/js/860.64ceec3d.chunk.js": "/FHR-Docs/static/js/860.64ceec3d.chunk.js",
     "static/js/516.3e9f513d.chunk.js": "/FHR-Docs/static/js/516.3e9f513d.chunk.js",
     "static/js/440.26c12cdd.chunk.js": "/FHR-Docs/static/js/440.26c12cdd.chunk.js",
-    "static/js/547.7bdbb7d0.chunk.js": "/FHR-Docs/static/js/547.7bdbb7d0.chunk.js",
+    "static/js/547.5ed0a6a3.chunk.js": "/FHR-Docs/static/js/547.5ed0a6a3.chunk.js",
     "static/js/347.68a5cee1.chunk.js": "/FHR-Docs/static/js/347.68a5cee1.chunk.js",
     "static/js/730.c9ed8592.chunk.js": "/FHR-Docs/static/js/730.c9ed8592.chunk.js",
     "static/js/151.85d08e8d.chunk.js": "/FHR-Docs/static/js/151.85d08e8d.chunk.js",
@@ -30,17 +30,17 @@
     "static/js/27.7c4fd576.chunk.js": "/FHR-Docs/static/js/27.7c4fd576.chunk.js",
     "static/media/querybuilder.md": "/FHR-Docs/static/media/querybuilder.e64d6b0abea5d4bcf963.md",
     "static/media/io.md": "/FHR-Docs/static/media/io.9ea57a6714cf4aca0b4a.md",
-    "static/media/mother_apgar.md": "/FHR-Docs/static/media/mother_apgar.cd3414c7c323e5a33006.md",
+    "static/media/mother_apgar.md": "/FHR-Docs/static/media/mother_apgar.11506b3e730fee5862f9.md",
     "static/media/query_tool.md": "/FHR-Docs/static/media/query_tool.9e8d6a3df149dc4f94db.md",
     "static/media/time.md": "/FHR-Docs/static/media/time.67a7f95dd1d5bc4f6a57.md",
     "static/media/identifiers.md": "/FHR-Docs/static/media/identifiers.515e235f1ae4b61da9e0.md",
     "static/media/mother_diagnosis.md": "/FHR-Docs/static/media/mother_diagnosis.d09f1df6975f00be0956.md",
-    "static/media/child_vitals.md": "/FHR-Docs/static/media/child_vitals.1cb53b938fae13de11f4.md",
+    "static/media/child_vitals.md": "/FHR-Docs/static/media/child_vitals.bfaff59e1110c0cd7528.md",
     "static/media/fhr_vitals.md": "/FHR-Docs/static/media/fhr_vitals.1c43262358c6e59fa162.md",
     "static/media/help.md": "/FHR-Docs/static/media/help.282d04e369d0f9aa0ea8.md",
     "static/media/child_birthweight.md": "/FHR-Docs/static/media/child_birthweight.0420a6557cab57366149.md",
+    "static/media/child_labs.md": "/FHR-Docs/static/media/child_labs.5c35168ad5d9dbe9719c.md",
     "static/media/mother_labs.md": "/FHR-Docs/static/media/mother_labs.dfd8e79ebed37fda3bbd.md",
-    "static/media/child_labs.md": "/FHR-Docs/static/media/child_labs.07cd1190d73f4f8ccdf2.md",
     "static/media/mother_prenatal_delivery.md": "/FHR-Docs/static/media/mother_prenatal_delivery.0cc83de01ee3db45af81.md",
     "static/media/homepage.md": "/FHR-Docs/static/media/homepage.0d7f8d2eaa50c292802e.md",
     "static/media/mother_child_link.md": "/FHR-Docs/static/media/mother_child_link.ac1aeeff39e3016c9b59.md",
@@ -57,6 +57,6 @@
   },
   "entrypoints": [
     "static/css/main.2b39ebdb.css",
-    "static/js/main.28e1df7f.js"
+    "static/js/main.3ec481cf.js"
   ]
 }
