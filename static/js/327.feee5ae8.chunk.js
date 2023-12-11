@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfhr=self.webpackChunkfhr||[]).push([[327],{327:function(e,s,t){e.exports=t.p+"static/media/datatypes.0ea026d767781e84bc43.md"}}]);

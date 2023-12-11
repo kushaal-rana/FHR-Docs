@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfhr=self.webpackChunkfhr||[]).push([[759],{759:function(c,e,f){c.exports=f.p+"static/media/child_birthweight.8fca1f11a766c72063f4.md"}}]);
