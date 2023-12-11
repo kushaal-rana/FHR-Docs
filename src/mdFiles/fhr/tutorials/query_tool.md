@@ -92,9 +92,7 @@ Feel free to customize these examples based on your specific use case and data s
 
 Watch this video tutorial for a hands-on demonstration of the Query Builder tool's functionalities.
 
-<video width="320" height="240" controls>
-  <source src="https://drive.google.com/file/d/1v8MtsfqLKtUEC6B_8X0QMk8ZDlVupjDG/view" type="video/mp4">
-</video>
+![Query Interface](/src/static/img/query_interface.mp4)
 
 
 ## Tips for Effective Queries
