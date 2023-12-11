@@ -70,7 +70,7 @@ To retrieve a list of children born in 2019 with jaundice, follow these steps:
 4. Set the conditions to 'contains' for jaundice and 'contains' for the year '2019.'
 5. Click 'Run' to execute the query and view the results.
 
-![Example 2](/src/static/img/image2.png)
+![Example 2](/src/static/img/image_2.png)
 </br>
 
 ### Example 3: Analyzing Vital Signs for a Mother
