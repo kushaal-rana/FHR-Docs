@@ -60,11 +60,11 @@ Each row in the "mother_apgar" table contains a `mother_person_id` and `mother_e
 <br></br>
 
 ### `valid_from_dt_tm`
-`valid_from_dt_tm` specify the start and end datetime for the validity period of the data.
+`valid_from_dt_tm` specify the start datetime for the validity period of the data.
 <br></br>
 
 ### `label_name`
-`label_name` specifies where the diagnosis of which baby
+`label_name` specifies the diagnosis of which baby
 <br></br>
 
 ### `Apgar Score 1 Minute:`, `Apgar Score 5 Minute:`, `Apgar Score 10 Minute:`, `Apgar Score 15 Minute:`, `Apgar Score 20 Minute:`
