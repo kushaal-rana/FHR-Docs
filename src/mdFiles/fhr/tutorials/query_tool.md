@@ -54,7 +54,7 @@ To find records of mothers who had diabetes, follow these steps:
 3. Set the column to `source_string`, the condition to 'contains,' and the value to 'diabetes.'
 4. Click 'Run' to execute the query and view the results.
 
-![Example 1](/src/static/img/image1.png)
+![Example 1](/public/static/img/image1.png)
 
 </br>
 
@@ -66,7 +66,9 @@ To retrieve a list of children born in 2019 with jaundice, follow these steps:
 4. Set the conditions to 'contains' for jaundice and 'contains' for the year '2019.'
 5. Click 'Run' to execute the query and view the results.
 
-![Example 2](/src/static/img/image_2.png)
+![Example 2](https://drive.google.com/file/d/1KRKq3S76MnefcF5xiEmv56_Ukxki5KIC/view?usp=drive_link)
+
+![Example 2](/public/static/img/image_2.png)
 </br>
 
 ### Example 3: Analyzing Vital Signs for a Mother
@@ -77,7 +79,7 @@ For a analyzing Vital Signs for a Mother, follow these steps:
 4. Specify the conditions based on your criteria, for example, 'normalcy' equal to 'HI,' 'result_status' equals 'Final', and 'vitals_event' contains 'Heart Rate.'
 5. Click 'Run' to execute the query and view the detailed results.
 
-![Example 3](/src/static/img/image3.png)
+![Example 3](/public/static/img/image3.png)
 
 </br>
 
@@ -88,7 +90,7 @@ Feel free to customize these examples based on your specific use case and data s
 
 Watch this video tutorial for a hands-on demonstration of the Query Builder tool's functionalities.
 
-![Query Interface](/src/static/img/query_interface.mp4)
+![Query Interface](/public/static/img/query_interface.mp4)
 
 <video width="640" height="360" controls>
   <source src = "/src/static/img/query_interface.mp4" type="video/mp4">
