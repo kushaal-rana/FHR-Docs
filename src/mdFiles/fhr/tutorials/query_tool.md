@@ -110,11 +110,3 @@ Watch this video tutorial for a hands-on demonstration of the Query Builder tool
 # Conclusion
 The Query Builder is a powerful interface that puts complex database queries at your fingertips without the need for in-depth SQL knowledge. If you need further assistance, please refer to the help documentation or contact the support team.
 
-
-## Tips for Effective Queries
-- Ensure that you have the correct spelling and case for table names and conditions.
-- Use the 'Reset' button to clear all selections and start a new query.
-- For complex queries, plan out your conditions and how they relate to each other before configuring them in the tool.
-
-# Conclusion
-The Query Builder is a powerful interface that puts complex database queries at your fingertips without the need for in-depth SQL knowledge. If you need further assistance, please refer to the help documentation or contact the support team.
