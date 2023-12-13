@@ -43,54 +43,72 @@ Each row in the "Child_BirthWeight" table contains a unique IDs, `child_person_i
 
 ### `PCM Date, Time of Birth`
 Date and time of birth recorded in the PCM format.
+<br></br>
 
 ### `Delivery-EGA`
 Estimated Gestational Age at delivery.
+<br></br>
 
 ### `Birth Length`
 Length of the baby at birth.
+<br></br>
 
 ### `Birth Weight`
 Weight of the baby at birth.
+<br></br>
 
 ### `Delivery Type`
 Mode of delivery (e.g., Vaginal, Ad hoc, etc.).
+<br></br>
 
 ### `PC PN Single Live Birth`
 Pregnancy Care Provider notation for a single live birth.
+<br></br>
 
 ### `Baby's Birth Status`
 Additional information about the baby's birth status.
+<br></br>
 
 ### `Pregnancy/Birth Complications`
 Any complications during pregnancy or birth.
+<br></br>
 
 ### `Birth Complications`
 Specific details about birth complications.
+<br></br>
 
 ### `Resuscitation at Birth`
 Actions taken for resuscitation at birth.
+<br></br>
 
 ### `NAS Less Than 90% of Birth Weight`
 Information about Neonatal Abstinence Syndrome.
+<br></br>
 
 ### `PCM Birth Activity`
 Birth activity recorded in the PCM format.
+<br></br>
 
 ### `PCM Birth Muscle Tone`
 Muscle tone of the baby at birth recorded in the PCM format.
+<br></br>
 
 ### `PCM Birth Skin Color`
 Skin color of the baby at birth recorded in the PCM format.
+<br></br>
 
 ### `PCM Birth Skin to Skin`
 Whether skin-to-skin contact was recorded in the PCM format.
+<br></br>
 
 ### `PCM Birth Temperature`
 Temperature of the baby at birth recorded in the PCM format.
+<br></br>
 
 ### `PCM Neonate Outcome`
 Outcome of the neonate recorded in the PCM format.
+<br></br>
 
 ### `Para`
 Parity or the number of live births the mother has had before the current birth.
+<br></br>

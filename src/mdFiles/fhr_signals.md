@@ -21,7 +21,7 @@ mother\_encounter\_id | INT8
 # Detailed description
 
 This table serves as a repository for FHR signal data, with each row representing a unique combination of child, mother, and encounter. The columns in this table include:
-<br/>
+<br></br>
 
 ### `child_person_id`
 This column contains a unique identifier for each child represented in the table. It helps establish a link between the FHR signals and the specific child. Each child's identifier is distinct.

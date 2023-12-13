@@ -27,6 +27,7 @@ c\_result\_status\_disp | VARCHAR
 # Detailed description
 
 The "Child_Vitals" table serves as a comprehensive repository for documenting vital signs and measurements of pediatric patients during their hospital stays. It captures essential information about each vital sign reading, providing insights into the nature of the measurement, its source, and relevant details.
+<br></br>
 
 ### `child_person_id`, `child_encntr_id`
 Each row in the "Child_BirthWeight" table contains a unique IDs, `child_person_id` represents a unique identifier for each child, while `child_encntr_id` can vary, indicating multiple admissions for a single child to the hospital. This table can have duplicate `child_person_id` values, reflecting multiple admissions for the same child.
@@ -34,6 +35,7 @@ Each row in the "Child_BirthWeight" table contains a unique IDs, `child_person_i
 
 ### `valid_from_dt_tm`
 Timestamps representing the validity period of each vital sign reading. "valid_from_dt_tm" indicates when the measurement was recorded.
+<br></br>
 
 ### `c_event_disp`
 This column provides a description of the type of vital sign or measurement recorded. It includes vital signs such as "Respiratory Rate," "Temperature Axillary," "Pulse Oximetry," "Heart Rate Monitored," "Oxygen Therapy," and more.
