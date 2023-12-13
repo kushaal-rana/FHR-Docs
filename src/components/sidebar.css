@@ -5,15 +5,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background: #ffffff;
     font-size: 18px;
-
 }
 
 .sidebar {
     background: rgb(130, 130, 130);
     border-right: 2px solid black;
-    height: 2500px !important;
+    height: inherit !important;
     width: 300px !important;
-
+    position:fixed;
+    overflow-x: hidden;
 }
 
 h1 {
