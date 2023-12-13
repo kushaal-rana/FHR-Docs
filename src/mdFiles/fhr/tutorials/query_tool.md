@@ -53,9 +53,7 @@ To find records of mothers who had diabetes, follow these steps:
 2. Click on 'Add rule.'
 3. Set the column to `source_string`, the condition to 'contains,' and the value to 'diabetes.'
 4. Click 'Run' to execute the query and view the results.
-
-![Example 1](/src/static/img/image1.png)
-
+<img width="780" alt="image1" src="https://github.com/kushaal-rana/FHR-Docs/assets/66997833/193a8250-e82f-481b-8791-ef769c56073e">
 </br>
 
 ### Example 2: Listing Children Born in 2019 with Jaundice
@@ -65,8 +63,7 @@ To retrieve a list of children born in 2019 with jaundice, follow these steps:
 3. Set the column to `source_string` for jaundice and `reg_dt_tm` for the birth date.
 4. Set the conditions to 'contains' for jaundice and 'contains' for the year '2019.'
 5. Click 'Run' to execute the query and view the results.
-
-![Example 2](/src/static/img/image_2.png)
+<img width="780" alt="image_2" src="https://github.com/kushaal-rana/FHR-Docs/assets/66997833/e703f3e8-a342-4add-981d-90d2f3d043bb">
 </br>
 
 ### Example 3: Analyzing Vital Signs for a Mother
@@ -76,9 +73,7 @@ For a analyzing Vital Signs for a Mother, follow these steps:
 2. Add rules for the columns `normalcy`, `result_status`, and `vitals_event`.
 4. Specify the conditions based on your criteria, for example, 'normalcy' equal to 'HI,' 'result_status' equals 'Final', and 'vitals_event' contains 'Heart Rate.'
 5. Click 'Run' to execute the query and view the detailed results.
-
-![Example 3](/src/static/img/image3.png)
-
+<img width="781" alt="image3" src="https://github.com/kushaal-rana/FHR-Docs/assets/66997833/a4f97919-e2f3-436e-b37f-3fb50d3b1164">
 </br>
 
 Feel free to customize these examples based on your specific use case and data structure.
@@ -88,14 +83,7 @@ Feel free to customize these examples based on your specific use case and data s
 
 Watch this video tutorial for a hands-on demonstration of the Query Builder tool's functionalities.
 
-![Query Interface](/src/static/img/query_interface.mp4)
-
-<video width="640" height="360" controls>
-  <source src = "/src/static/img/query_interface.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<iframe width="560" height="315" src="/src/static/img/query_interface.mp4" frameborder="0" allowfullscreen></iframe>
+https://github.com/kushaal-rana/FHR-Docs/assets/66997833/0b8a3e2b-e3cb-4457-9edd-402f67a6df0b
 
 
 ## Tips for Effective Queries
