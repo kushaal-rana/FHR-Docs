@@ -32,6 +32,7 @@ result\_status | VARCHAR(255)
 # Detailed description
 
 The "FHR_Vitals" table is a comprehensive repository of vital signs data for mothers during their encounters. It includes a variety of vital signs and measurements, such as:
+<br></br>
 
 ### `mother_person_id`, `mother_encounter_id`
 Each entry in this table is uniquely identified by an ID (id) and is associated with specific maternal individuals. "mother_person_id" represents the unique identifier for individual mothers, while "mother_encounter_id" indicates multiple admissions or encounters for the same mother.
@@ -39,6 +40,7 @@ Each entry in this table is uniquely identified by an ID (id) and is associated 
 
 ### `valid_from_date_time`
 These columns record the validity timestamps associated with the vital sign data, indicating when the data was recorded when it remained relevant.
+<br></br>
 
 ### `vitals_event`
 This column contains descriptions of various vital sign events, indicating what type of measurement or observation was recorded. Examples of vital sign events may include heart rate, blood pressure, oxygen saturation, etc.

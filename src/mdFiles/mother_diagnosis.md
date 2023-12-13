@@ -39,6 +39,7 @@ d\_present\_on\_admit\_disp | VARCHAR
 
 ### `mother_person_id`, `mother_encntr_id`
 Each row in the `mother_diagnosis` table contains a `mother_person_id` and `mother_encounter_id`. The `mother_person_id` represents a unique identifier for each mother, while `mother_encntr_id` can vary, indicating multiple admissions for a single mother at the hospital. This table can have duplicate `mother_person_id` values, reflecting multiple admissions for the same child.
+<br></br>
 
 ### `reg_dt_tm`
 These timestamp column, `reg_dt_tm` store date and time information related to registration. It offers a chronological perspective on each diagnosis.

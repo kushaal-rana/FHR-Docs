@@ -46,6 +46,7 @@ Each row in the `mother_peternal_delivery` table contains a `mother_person_id` a
 
 ### `valid_from_dt_tm`
 `valid_from_dt_tm` specify the validity period of the data.
+<br></br>
 
 ### `c_event_disp`
 The column provides contextual information about the mother’s prenatal care or delivery. `c_event_disp` describes the event. 
