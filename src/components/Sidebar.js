@@ -96,7 +96,7 @@ function Sidebar1() {
             </SubMenu>
             <SubMenu label="Tutorials">
               <MenuItem>
-                <Link to="/fhr/tutorials/queries">Postgres queries</Link>
+                <Link to="/fhr/tutorials/queries">Query Tool</Link>
               </MenuItem>
             </SubMenu>
           </SubMenu>
